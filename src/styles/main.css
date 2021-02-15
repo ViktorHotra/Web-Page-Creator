@@ -1,0 +1,50 @@
+#app {
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 200px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    z-index: 100;
+    padding: 10px;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    overflow-y: auto;
+}
+
+.mb {
+    margin-bottom: .5rem;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff 51%, #ff6e7f 100%)
+}
+
+.btn-grad {
+    margin: 5px;
+    padding: 5px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    /*border-radius: 10px;*/
+    display: block;
+    border: 0;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
