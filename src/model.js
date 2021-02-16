@@ -15,7 +15,7 @@ export const model = [
 		tag: 'h2',
 		styles: {
 			background: 'linear-gradient(to right, #ef32d9, #89fffd)',
-			color: '#fff',
+			'font-family': 'Reggae One, cursive',
 			'text-align': 'center',
 			padding: '1.5rem',
 		},
